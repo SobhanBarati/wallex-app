@@ -1,0 +1,20 @@
+{
+  "name": "wallex_engine",
+  "version": "1.0.0",
+  "description": "Wallex Agentic AI Trading Engine",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "backtest": "node src/backtest.js",
+    "test": "node src/test_smoke.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "openai": "^4.77.0",
+    "technicalindicators": "^3.1.0",
+    "ws": "^8.22.0"
+  }
+}

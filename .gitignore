@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.log
+trades_log.jsonl
+positions_state.json
+orders_lock.json
+*.tmp
